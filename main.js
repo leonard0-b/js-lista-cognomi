@@ -20,7 +20,8 @@ if (isNaN(cognome)) {
   console.log(listaCognomi.sort());
 // se cognome è un numero esce alert🐱‍👤
 } else {
-  alert("Non mi hai dato un cognome!");
+  alert("Non mi hai dato un cognome!")
+  prompt("Dammi il tuo cognome");
 }
 
 // crea ciclo while dove la variabile è 0 e la condizione i minore della lunghezza array
