@@ -14,7 +14,7 @@ console.log(cognome);
 // crea array con i cognomi🐱‍👤
 var listaCognomi = ["Bianchi", "Rossi", "Perlari", "Lodigiani", "Mastrobattista", "Verdi"];
 
-// se cognome non è un numero pushalo nella listaCognomi e stampalo in ordine alfabetico🐱‍👤
+// se cognome non è un numero pushalo nella listaCognomi e stampalo in ordine alfabetico .sort()🐱‍👤
 if (isNaN(cognome)) {
   listaCognomi.push(cognome);
   console.log(listaCognomi.sort());
