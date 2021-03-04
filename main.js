@@ -8,7 +8,7 @@
 var cognome = prompt("Dammi il tuo cognome");
 
 // prima lettera maiuscola🐱‍👤
-cognome cognome[0].toUpperCase() + cognome.substring(1);
+cognome = cognome[0].toUpperCase() + cognome.substring(1);
 console.log(cognome);
 
 // crea array con i cognomi🐱‍👤
